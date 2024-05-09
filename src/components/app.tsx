@@ -60,7 +60,7 @@ export default function App() {
   return (
     <>
       <div className="flex flex-col  items-center pt-10	 ">
-        <h1 className="py-10">My Activity</h1>
+        <h1 className="py-10 font-bold text-xl ">My Activities</h1>
         <div>
           <form onSubmit={handleSearch} action="post" className="inline-flex">
             <label htmlFor="q"></label>
